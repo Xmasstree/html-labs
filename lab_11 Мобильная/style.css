@@ -1,0 +1,39 @@
+.blue
+{
+    background-color: #000088;
+}
+
+.blue:hover
+{
+    background-color: #444488;
+}
+
+.purple
+{
+    background-color: #880088;
+}
+
+.purple:hover
+{
+    background-color: #884488;
+}
+
+.red
+{
+    background-color: #880000;
+}
+
+.red:hover
+{
+    background-color: #884444;
+}
+
+p
+{
+    color: white;
+}
+
+.transparent
+{
+    background-color: transparent;
+}
