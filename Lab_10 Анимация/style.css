@@ -1,0 +1,99 @@
+body{background-image: url(BG-ILLU2.JPG);}
+
+.ico1
+{
+    position: absolute;
+    z-index: 1;
+    left: 28%;
+    top: 15%;
+}
+.firstline
+{
+    position: relative;
+    margin: 5px;
+    float: left;
+}
+.firstlinerad
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px;
+    border-collapse: collapse;
+    padding: 40px;
+}
+
+.text2
+{
+    position: absolute;
+    z-index: 0;
+    left: 28%;
+    top: 15%;
+}
+
+.firstlinetext
+{
+    position: relative;
+    display: block;
+    margin: 5px;
+    bottom:px;
+    float: left;
+}
+
+.firstlinetextrad
+{
+    border-radius: 5px;
+    border: 1px;
+    background: rgba(255, 255, 200, 0.7); 
+    max-width: 240px;
+    min-width: 240px;
+    min-height: 308px;
+    max-height: 308px;
+}
+
+div{transition: all 0.9s ease;}
+
+.rotateX:hover {
+    -webkit-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+
+.rotateY:hover {
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+
+
+.rotateZ:hover {
+    -webkit-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+
+.scalemaxmin:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+.fade {
+  opacity: 1;
+}
+
+.fade:hover {
+  opacity: 0;
+}
+
+.circle:hover {
+  border-radius: 100%;
+}
+
+.all
+{
+  text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:black;
+}
